@@ -1,0 +1,13 @@
+img
+{
+    transition: 0.5s;
+}
+input:checked ~ img
+{
+    /* 1. Nếu biến mất khỏi giao diện */
+    /* display: none; Không hổ trợ animation*/
+    /* 2. biến khỏi giao diện, nhưng vẫn chiếm vị trí */
+    /* visibility: hidden; */
+    /* 3. làm mờ đi */
+    opacity: 0;
+}

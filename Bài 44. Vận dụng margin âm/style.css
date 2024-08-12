@@ -1,0 +1,29 @@
+
+/* div
+{
+    width: 200px;
+    height: 200px;
+    border: 30px solid blue;
+    margin: -8px;
+} */
+ div
+ {
+    display: inline-block;
+ }
+.content
+{
+    background-color: yellow;
+    padding: 40px;
+}
+img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #b4b4b4;
+    margin-left: -70px;
+}
+.avatar:first-child
+{
+    margin-left: 0;
+}

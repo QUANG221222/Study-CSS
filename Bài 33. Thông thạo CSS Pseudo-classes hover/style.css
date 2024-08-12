@@ -1,0 +1,46 @@
+/* di chuột vào */
+/* .di_chuot:hover
+{
+    color: aqua;
+} */
+
+/* Nhấn giữ vào 1 phần tử trong trang */
+/* .di_chuot:active
+{
+    color: red;
+    font-size: 20px;
+} */
+
+/* Khi người dùng chưa click vào */
+.click_me:link
+{
+    color : chocolate;
+}
+/* Khi người dùng đã click vào */
+.click_me:visited
+{
+    color: #000;
+}
+
+/* Tác dụng khi không có nội dung */
+.div_elm:empty
+{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.div_elm
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+/* định dạng khi click vào href */
+h2:target
+{
+    color: red;
+}
+
+
+

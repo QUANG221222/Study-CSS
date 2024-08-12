@@ -1,0 +1,14 @@
+/* chọn h2 đứng ngay sau h1 */
+/* h1 + h2
+{
+    color: gold;
+}
+.demo.demo2 + h3, p
+{
+    color : blue;
+} */
+/* `~ chọn tất cả đằng sau */
+h1 ~ h3
+{
+    color: blue;
+}

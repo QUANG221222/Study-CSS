@@ -1,0 +1,22 @@
+/* Đơn vị tuyệt đối : pixel
+Pixel : Picture Element (thành phần hình ảnh)
+- Điểm ảnh là đơn vị cơ bản để đo kích thước hình ảnh kỹ thuật số*/
+
+/* Kích thước tuyệt đối không thay đổi khi trình duyệt thay đổi kích thước */
+h2
+{
+    /* đơn vị tuyệt đối */
+    font-size: 30px;
+    width: 450px;
+    height: 80px;
+    background-color: yellow;
+}
+/* Kích thước tương đối làm thay đổi kích thước phần tử khi trình duyệt thay đổi kích thước */
+p
+{
+    width: 50%;
+    background-color: blue;
+}
+/* pixel không làm thay đổi kích thước nên sẽ làm cho người dùng
+khó chịu*/
+

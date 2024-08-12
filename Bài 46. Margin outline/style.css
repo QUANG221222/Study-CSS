@@ -1,0 +1,15 @@
+/*Outline : là đường viền bao quanh mép 
+ngoài cùng đối tượng
+    Không làm tăng thêm kích thước phần tử
+    Đơn giản nó chỉ là 1 vùng bao bên ngoài, chiếm cả vào phần margin
+    */
+.box1
+{
+    width: 200px;
+    height: 200px;
+    /* border: 10px solid red; */
+    outline: 20px solid blue;
+    margin: 40px;
+    /* tính từ phần tử có kích thước*/
+    outline-offset: 10px;
+}

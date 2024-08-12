@@ -1,0 +1,33 @@
+/* em : kích thước gấp n lần font chữ hiện tại (có kế thừa) */
+/* TH1: thẻ cha và thẻ con không có font size
+     lấy kích thước từ font-size của root (html) 16px */
+/* .child
+{
+    font-size: 10px;
+    font-size * 10 -> width : 100px
+    width: 10em;
+    height: 10em;
+    background-color: violet;
+} */
+/* TH2: Thẻ cha có font-size tuyệt đối */
+/* .parent
+{
+    font-size: 20px;
+    font-size: 2em;
+} */
+/* TH3: Cả thẻ cha và con điều đặt font-size
+-> ưu tiên font-size hiện tại của nó */
+/* TH4: Thẻ cha có font-size tương đối
+->Thẻ cha sẽ lấy kích thước mặt định của html (16px)
+->Thẻ con tiếp tục thừa kế từ thẻ cha */
+.parent
+{
+    font-size: 10px;
+}
+.child
+{
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    background-color: violet;
+}

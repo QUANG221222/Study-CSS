@@ -1,0 +1,31 @@
+/* % : kích thước bằng % so với phần tử cha */
+/* Nếu phần tử cha không có kích thước thì nó sẽ dựa vào
+kích thước của trình duyệt Default 16px */
+/* thẻ body là thẻ đặt biệt nó sẽ tự động co chiều cao
+bằng phần tử nó chứa*/
+/* body
+{
+    background-color: brown;
+    height: 400px;
+}
+.box
+{
+    background-color: blue;
+    width: 60%;
+    height: 50%;
+}
+.box_child
+{
+    background-color: yellow;
+    width: 50%;
+} */
+
+.parent
+{
+    font-size: 60px;
+}
+
+.line1
+{
+    font-size: 100%;
+}

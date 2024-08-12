@@ -1,0 +1,11 @@
+/* white-space : normal Không thay đổi*/
+/* white-space : nowrap Không xuống dòng mặc dùng chạm tới lề */
+/* white-space : pre nguyên dữ liệu code */
+/* white-space : pre-line giữ nguyên xuống dòng, nhưng mỗi dòng được định dạng*/
+/* white-space: pre-wrap giữ nguyên code nhưng gặp lề thì nó xuống dòng */
+p
+{
+    background-color: yellow;
+    /* Tự động bẻ xuống dòng nếu câu dài ngoằng */
+    word-break: break-all;
+}

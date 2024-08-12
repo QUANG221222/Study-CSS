@@ -1,0 +1,24 @@
+/* Opacity : quy định độ trong suốt */
+body
+{
+    background-image: url(./img/md-rumon-munshi-tkqS7jmlKA0-unsplash.jpg);
+}
+/* h2
+{
+    opacity: 0.1;
+    background-color: blue;
+} */
+/* Display : ấn phần tử khỏi giao diện (xóa cả không gian nó chiếm)*/
+/* h2
+{
+    display: none;
+    background-color: aqua;
+} */
+/* Visibility - ẩn hoặc hiện element */
+h2
+{
+    /* visibility: hidden; */
+    opacity: 0;
+    background-color: aqua;
+}
+

@@ -1,0 +1,18 @@
+/* 
+vw: chiều rộng khung nhìn (viewport width- phần hiển thị trên browser
+vh: chiều cao khung nhìn ( viewport height--//--) */
+
+.parent
+{
+    /* 80% chiều rộng khung nhìn */
+    width: 80vw;
+    /* cao bằng 80% chiều cao khung nhìn */
+    height: 80vh;
+    background-color: yellow;
+}
+.child
+{
+    width: 50vw;
+    height: 50vh;
+    background-color: violet;
+}

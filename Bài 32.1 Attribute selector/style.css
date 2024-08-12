@@ -1,0 +1,9 @@
+/* tác động lên thẻ a có href */
+p[href]
+{
+    color: red;
+}
+[target="_blank"]
+{
+    color: aqua;
+}
