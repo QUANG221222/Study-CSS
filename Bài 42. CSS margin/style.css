@@ -1,0 +1,35 @@
+/* .box
+{
+    width: 210px;
+    height: 200px;
+    background-color: red;
+    padding: 10px 20px 30px 40px;
+    border: 10px solid blue;
+    margin : 10px 20px 30px 40px; 
+    margin-top: 15px;
+    margin-bottom: 20px;
+} */
+
+.box
+{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: red;
+}
+.box1
+{
+    border: 10px solid rgb(165, 20, 165);
+}
+.box2
+{
+    border: 10px solid black;
+    margin-left: 158px;
+    background-color: green;
+}
+.box3
+{
+    border: 10px solid red;
+    background-color: plum;
+    margin-left: 317px;
+}

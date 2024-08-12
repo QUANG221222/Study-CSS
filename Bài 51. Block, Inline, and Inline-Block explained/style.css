@@ -1,0 +1,20 @@
+/* Thẻ block luôn chiếm hết 100% chiều ngang của cha chưa nó */
+body
+{
+    width: 650px;
+}
+/* inline hộp có kích thước phụ thuộc vào nội dung bên trong nó 
+không tác động trên và dưới của padding và margin
+không áp dụng width, height
+Sở dĩ thẻ inline không áp dụng được 1 số thuộc tính trên vì nó sinh ra
+để nằm trên cùng 1 hàng và để không phá vỡ cấu trúc của dòng
+*/
+strong
+{
+    /* height: 100px;
+    width: 100px; */
+    /* padding: 30px; */
+    background-color: blue;
+    margin: 30px;
+    /* display: inline-block; */
+}

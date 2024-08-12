@@ -1,0 +1,52 @@
+/* margin collapse: là hiện tượng chồng lặp
+thuộc tính margin của 2 phần tử liền kề cùng 
+thiết lập margin với phần tử còn lại theo chiều dọc */
+/* body
+{
+    display: flex;
+    flex-direction: column;
+}
+.box
+{
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+}
+.box1
+{
+    margin-bottom: 50px;
+}
+.box2
+{
+    margin-top: 70px;
+} */
+
+/* margin collape không bị theo chiều ngang */
+/* .item
+{
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.item1
+{
+    margin-right: 10px;
+}
+.item2
+{
+    margin-left: 20px;
+} */
+.box_parent
+{
+    background-color: pink;
+    height: 250px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.box_child
+{
+    width: 50%;
+    background-color: blue;
+    margin-top: 70px;
+}

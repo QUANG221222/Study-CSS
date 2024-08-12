@@ -1,0 +1,8 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    overflow: auto;
+    /* chỉ lăn thanh cuộn trong box và nếu hết box thì không lăn được nữa */
+    overscroll-behavior: contain;
+}

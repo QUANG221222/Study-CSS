@@ -1,0 +1,25 @@
+h1
+{
+    /* horizontal: đổ bóng theo chiều ngang từ trái qua phải */
+    /* vertical: đổ bóng theo chiều dọc từ trên xuống dưới */
+    /* blur độ nhòe */
+    margin: 40px;
+    text-shadow: 0px -20px 0px #f00;
+
+}
+.box
+{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    /* Thuộc tính mặc định: hiển thị nội dung kể cả vượt box chưa */
+    overflow: visible;
+    /* ẩn nội dung: khi nội dung vượt quá box chứa*/
+    overflow: hidden;
+    /* Tạo thanh cuộn: luôn hiển thị thanh cuốn */
+    overflow: scroll;
+    /* auto : 1 nếu nội dung ngắn -> không có scroll bar
+    2 nếu nội dung dài -> Tự động sinh ra scroll bar */
+    overflow: auto;
+}
+

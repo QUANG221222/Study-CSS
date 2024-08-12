@@ -1,0 +1,46 @@
+/* rem : Kích thước phụ thuộc vào font-size thẻ html (root element) 16px*/
+/* không kế thừa */
+/* 
+Thông thường 1 rem = 16px
+Cần quy đổi tỷ lệ để 1 rem = 10px
+->10/16 * 100 = 62.5%
+->Cần giảm font-size của HTML xuống 62.5%
+*/
+/* .parent
+{
+    font-size: 10px;
+}
+html
+{
+    font-size: 10px;
+}
+.child
+{
+    16px --> 32px
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: violet;
+    border: 0.2rem solid red;
+} */
+html
+{
+    /* tăng lên 10% -> 62.5%*/
+    font-size: 62.5%;
+}
+h1
+{
+    font-size: 4.4rem;
+    /* 44/16 */
+}
+p
+{
+    font-size: 2.53rem;
+    /* 25.3/16 */
+}
+.box
+{
+    width: 22rem;
+    height: 18rem;
+    background-color: blue;
+}

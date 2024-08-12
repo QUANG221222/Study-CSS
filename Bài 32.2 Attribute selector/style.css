@@ -1,0 +1,15 @@
+/* [title~="tuhoc.cc"]
+{
+    color: red;
+} */
+
+/* bắt đầu bằng pic/pic- */
+[title^="pic"]
+{
+    color: pink;
+}
+/* tìm tất cả thuộc tính title kết thúc bằng c */
+[title$="c"]
+{
+    clear: blue;
+}

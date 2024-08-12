@@ -1,0 +1,26 @@
+body.active
+{
+    background-image: linear-gradient(90deg,#2f3189,#c35454);
+}
+p:first-child
+{
+    color: red;
+}
+
+p:last-child
+{
+    color: blue;
+}
+
+/* Thẻ con thứ 2 tính từ dưới lên*/
+p:nth-last-child(2)
+{
+    color: pink;
+    font-size: larger;
+}
+
+/* chọn thẻ p là con duy nhất */
+p:only-child
+{
+    background-color: #2f3189;
+}

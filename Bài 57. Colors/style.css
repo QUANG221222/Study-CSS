@@ -1,0 +1,37 @@
+/* rgb(red, green, blue) */
+h1
+{
+    /* color: rgb(174, 25, 194); */
+    /* color: rgb(122 12 14); */
+    /* 0-255: mỗi kênh màu có 256 giá trị
+    256 * 16 tương đương 16.7 triệu màu*/
+/* Kênh rgba */
+    /* color: rgb(255, 0, 0, 0); */
+    /* color: rgb(255 0 0 / 0.5);
+    background-color: blueviolet; */
+/* Hệ màu hex (thập lục phân) */
+/* 16 * 6 = 16.7 triệu màu */
+    color: #ff00ff;
+    color: #c2d;
+    color: #ff00ff00;
+    /* color: deeppink; */
+}
+.box
+{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    color: pink;
+    background-color: currentColor;
+    outline: 50px solid currentColor;
+    outline-offset: 5px;
+}
+.box_child
+{
+    width: 50px;
+    height: 50px;
+    background-color: currentColor;
+}
+
+
+

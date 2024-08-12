@@ -1,0 +1,21 @@
+body
+{
+    background-color: aqua;
+}
+.click
+{
+    background-color: pink;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin: 5px auto;
+    color: black;
+    text-decoration: none;
+
+}
+.click:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

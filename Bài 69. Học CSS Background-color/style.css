@@ -1,0 +1,18 @@
+body
+{
+    background-color: aqua;
+}
+.box
+{
+    color: yellow;
+    width: 250px;
+    height: 250px;
+    /* Mặc định */
+    background-color: transparent;
+    background-color: red;
+    background-color: #ccc;
+    background-color: currentColor;
+    margin: 45px;
+    padding: 20px;
+    border: 20px dotted red;
+}

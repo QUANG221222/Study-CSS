@@ -1,0 +1,19 @@
+.box{
+    width: 300px;
+    height: 100px;
+    border: 4px dotted red;
+    background-image: url(bg/bg1.jpg);
+    /* contain: ảnh vừa khung hình, giữ nguyên tỉ lệ ảnh
+    không bị mất ảnh, nếu có khoảng trống, ảnh sẽ bị lập lại */
+    background-size: contain;
+    /* cover: ảnh vừa khớp với khung hình, giữ nguyên tỉ lệ ảnh(không bị méo)
+    có thể mất 1 phẩn ảnh
+    không bị lập lại ảnh */
+    background-size: cover;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: 100% 100%;
+    background-size: 200px 200px;
+
+}

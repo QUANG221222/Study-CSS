@@ -1,0 +1,26 @@
+/* pseudo: mã giả */
+*
+{
+    /* color: red !important;
+     */
+     color: red;
+}
+h1{
+    color: blue;
+}
+.demo
+{
+    color : green !important;
+}
+/* .top:not(:first-of-type)
+{
+    background-color: yellow;
+} */
+/* Mức độ ưu tiên
+1. !important
+2. Inline style (viết trên HTML)
+3.ID(#) selector
+4.Class(.) hoặc pseudo-class(:)selector
+5.Element selector (h,p,li,div,...)
+6.Universal selector(*): bộ chọn chung
+ */

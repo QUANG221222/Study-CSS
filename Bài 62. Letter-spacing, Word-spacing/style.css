@@ -1,0 +1,17 @@
+/* Nó sẽ căn theo box chứa nó */
+p
+{
+    /* letter-spacing: -3px; */
+    /* word-spacing: 50px; */
+    /* text-align: left;Căn trái Mặc định của trình duyệt */
+    /* text-align: justify; Căn đều 2 bên*/
+    /* text-align: right;Căn phải */
+    /* text-align: center;Căn giữa */
+}
+.home
+{
+    /* Kích thước của thẻ block sẽ chiếm hết chiều ngang của 
+    thẻ cha chứa nó(body) */
+    display: block;
+    text-align: center;
+}
