@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  height: 150px;
+  background-color: cyan;
+  flex-direction: column;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: blue;
+  /* margin-top: auto; */
+}
+.box3 {
+  /* margin-left: auto; */
+  background-color: green;
+}
+.box4 {
+  background-color: purple;
+}

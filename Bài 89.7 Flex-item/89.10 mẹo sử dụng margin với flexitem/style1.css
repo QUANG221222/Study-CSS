@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  height: 100px;
+  background-color: cyan;
+  /* justify-content: center;
+  align-items: center; */
+}
+.fa-brands {
+  margin: auto;
+  font-size: 1.5rem;
+  color: red;
+}

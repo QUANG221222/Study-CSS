@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* box shadow */
+img {
+  /* box-shadow: 0 0 20px black; */
+}
+/* drop shadow */
+img {
+  /* filter: drop-shadow(0 0 20px blue); */
+}
+.chat {
+  background-color: #fff;
+  font-size: 1.2rem;
+  -webkit-filter: drop-shadow(0 0 2px black);
+  -webkit-filter: drop-shadow(0 0 2px black);
+  filter: drop-shadow(0 0 2px black);
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 300px;
+  position: relative;
+}
+.chat::after {
+  content: "";
+  position: absolute;
+  border: 20px solid;
+  border-color: #fff transparent transparent;
+  right: 5%;
+  bottom: -39px;
+}
+.icon {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(93%) saturate(6773%)
+    hue-rotate(261deg) brightness(100%) contrast(103%);
+}
+img {
+  filter: hue-rotate(20deg);
+  max-width: 200px;
+}

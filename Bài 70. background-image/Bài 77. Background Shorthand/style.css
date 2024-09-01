@@ -1,0 +1,36 @@
+.box
+{
+    /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+    /* width: 200px;
+    height: 200px;
+    border: 50px dotted red;
+    background-color: cyan;
+    background-image: url(./bg/1.PNG); */
+    /* background-position: vị trí bắt đầu đặt ảnh
+    background-position: top left;
+    background-position: top left;
+    background-position: bottom left;
+    background-position: bottom right;
+    background-position: left;
+    background-position: right;
+    background-position: top;
+    background-position: center;
+    /* đơn vị % */
+    /*background-position: 0 100%;
+    /* đơn vị tuyệt đối */
+    /*background-position: 0 100px; */
+    /* background-size : mặc định hiển thị ảnh theo kích thước thật 1:1 */
+    /* background-size: contain;
+    background-size: cover; */
+    /* background repeat: repeat là mặc định default */
+    /* background-repeat: no-repeat; */
+    /* background-origin xác định gốc bức ảnh mặc định là padding-box */
+    /* background-origin: padding-box; */
+    /* background-origin: border-box; */
+    /* background-origin: content-box;  */
+    /* background-clip, border-box mặc định */
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box;  */
+    background: red url(./bg/1.PNG);
+}

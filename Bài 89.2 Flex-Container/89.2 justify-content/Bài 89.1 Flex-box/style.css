@@ -1,0 +1,26 @@
+/* justify-content: mặc định, trục main axis sẽ nằm ngang
+còn trục cross axis sẽ nằm dọc
+justify-content sẽ căn các phần tử theo trục main axis */
+* {
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* 2 phần tử ngoài cùng sát lề, khoảng cách giữ
+  các phần tử bằng nhau */
+  /* justify-content: space-between; */
+  /* khoảng cách xung quanh của phần tử bằng nhau */
+  /* justify-content: space-around; */
+  /* Khoảng cách của các phần tử bằng nhau cách cả lề */
+  justify-content: space-evenly;
+  background-color: cyan;
+}
+.box {
+  background-color: blue;
+}

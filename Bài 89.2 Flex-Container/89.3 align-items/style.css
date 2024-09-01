@@ -1,0 +1,25 @@
+/* align-item mặc định kéo giãn các phần tử bằng container(theo trục cross) */
+* {
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+}
+.container {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: stretch; mặc định */
+  /* align-items: flex-start; căn theo cross start */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+  background-color: cyan;
+}
+.box {
+  background-color: blue;
+}
+.box1 {
+  height: 200px;
+  font-size: 3rem;
+}

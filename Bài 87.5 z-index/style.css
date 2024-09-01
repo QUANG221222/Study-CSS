@@ -1,0 +1,36 @@
+/* z-index : dùng để xác định xem phần tử nào nằm cao hơn phần tử nào
+phần tử thấp hơn có thể bị che khuất
+ở trạng thái mặc định, chưa set z-index thì phần tử nào viết sau sẽ nằm trên */
+.box {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
+  position: relative;
+}
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  top: 50px;
+  z-index: 1;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  z-index: 2;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  bottom: 50px;
+}
+/* khi các phần tử có cùng kiểu vị trí
+(position) được định nghĩa là relative,
+absolute, hoặc fixed.
+Các phần tử static không ảnh hưởng bởi 
+z-index */

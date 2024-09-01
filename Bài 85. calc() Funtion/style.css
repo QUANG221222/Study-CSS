@@ -1,0 +1,15 @@
+.nav
+{
+    height: 100px;
+    margin: 0 auto;
+    /* width: calc(100px * 3); */
+    width: calc(100% / 2);
+    background-color: #ccc;
+}
+.main_content
+{
+    background-color: blue;
+    /* không sử dụng 100% trong tình huống này */
+    height: calc(100vh - 100px);
+
+}

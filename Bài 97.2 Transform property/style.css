@@ -1,0 +1,30 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: red;
+  color: #fff;
+  font-size: 3rem;
+  /* transition: 0.5s; */
+  /* rotate: 45deg; */
+  /* scale(co giãn) */
+  /* transform: scale(1.5); */
+  /* scale: 1.5; */
+  /* Skew (Biến dạng) */
+  /* transform: scaleX(20deg); */
+  /* transform: skew(20deg, 10deg);
+   */
+  /* transform: skewY(10deg); */
+  /* Translate (dịch chuyển) */
+  /* transform: translateX(50%); */
+  /* translate: 50% 100px; */
+  /* transform: translate(50%, 100px); */
+  transition: 1s all linear;
+}
+.box:hover {
+  /* rotate (Xoay) */
+  /* transform: rotate(45deg); */
+  rotate: 360deg;
+  scale: 1.5;
+  transform: skew(40deg);
+}

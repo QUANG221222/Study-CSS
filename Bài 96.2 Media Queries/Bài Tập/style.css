@@ -1,0 +1,23 @@
+body {
+  background-color: cyan;
+}
+@media (min-width: 1601px) {
+  body {
+    background-color: purple;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: orange;
+  }
+}
+@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+}

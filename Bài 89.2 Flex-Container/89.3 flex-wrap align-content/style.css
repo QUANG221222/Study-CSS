@@ -1,0 +1,23 @@
+.container {
+  height: 400px;
+  display: flex;
+  background-color: cyan;
+  /* default trên cùng 1 hàng*/
+  /* flex-wrap: nowrap; */
+  /* các phần tử con rộng hơn phần tử cha
+  tự động xuống hàng */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* align-content: stretch kéo dãn */
+  /* align-content: stretch; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-around; */
+  /* align-content: space-between; */
+}
+.box {
+  width: 30%;
+  background-color: blue;
+  border: 1px solid black;
+}

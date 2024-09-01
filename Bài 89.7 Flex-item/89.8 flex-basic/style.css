@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  height: 150px;
+  background-color: cyan;
+  flex-direction: column;
+}
+.box {
+  /* width: 30%; */
+  background-color: blue;
+  border: 1px solid black;
+  flex-basis: 30%;
+}

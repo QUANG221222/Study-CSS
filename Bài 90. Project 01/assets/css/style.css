@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --font-heading: "Sen", sans-serif;
+  --primary-color: #ffb900;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* ==============comon============== */
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  line-height: 50px;
+  padding: 0 16px;
+  font-size: 1.6rem;
+  color: #ffff;
+  text-align: center;
+  font-weight: 600;
+  background: #171100;
+  border-radius: 999px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* =============header=============== */
+.header {
+  background: #eed590;
+}
+.header.fixed {
+  position: sticky;
+  top: -28px;
+  z-index: 1;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0px 8px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  position: relative;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 8px 21px;
+}
+.nav li.active a,
+.nav a:hover {
+  color: #171100;
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.nav li.active a::after {
+  content: "";
+  display: block;
+  width: 1.2rem;
+  height: 0.2rem;
+  border-radius: 1px;
+  background: #171100;
+  position: absolute;
+  left: 2.1rem;
+  right: 0.6rem;
+}
+.header .btn-sign-up {
+  min-width: 144px;
+}
+.header .action {
+  margin-left: 49px;
+}
+
+/* ==================hero================ */
+.hero {
+  padding: 56px 0px 65px;
+  background-color: #fffcf4;
+}
+.hero .body {
+  display: flex;
+}
+/* ============= hero left ============= */
+.hero .media-block {
+  position: relative;
+  width: 48%;
+}
+.hero .content-block {
+  width: 52%;
+}
+.hero .media-block .img {
+  width: 470px;
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.hero .media-block .hero-sumary {
+  position: absolute;
+  bottom: 38px;
+  right: 115px;
+  background: #fff;
+  border-radius: 12px;
+  width: 27rem;
+  height: 24.4rem;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
+  padding: 24px;
+}
+.hero .hero-sumary .item {
+  align-items: center;
+  display: flex;
+}
+.hero .hero-sumary .item + .item {
+  margin-top: 22px;
+}
+.hero .hero-sumary .icon {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff9e8;
+  margin-right: 14px;
+}
+.hero .hero-sumary .icon2 {
+  background: #fcefff;
+}
+.hero .hero-sumary .icon3 {
+  background: #ebeaff;
+}
+.hero-sumary .info {
+  margin-left: 16px;
+}
+.hero .hero-sumary .item .info .lable {
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #5f5b53;
+}
+.hero-sumary .title {
+  color: #171100;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+/* ============= hero right ============== */
+.hero .content-block {
+  font-family: var(--font-heading);
+  width: 47rem;
+  height: 55.8rem;
+  align-self: center;
+  border-radius: 32px;
+  flex-grow: 2;
+  padding-left: 130px;
+  padding-top: 64px;
+}
+.hero .heading {
+  font-family: "sen";
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #171100;
+  padding-bottom: 10px;
+}
+.hero .desc {
+  font-size: 1.8rem;
+  line-height: 30px;
+  text-align: left;
+  color: #5f5b53;
+  margin-top: 22px;
+}
+.hero .cta-group {
+  display: flex;
+  align-items: center;
+  margin-top: 38px;
+}
+.hero-cta {
+  background-color: var(--primary-color);
+  min-width: 180px;
+}
+.hero .watch-video {
+  border: none;
+  margin-left: 28px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.hero .watch-video .icon {
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px #00000012;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+.hero .watch-video span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 14px;
+}
+.hero .desc-recent {
+  margin-top: 48px;
+}
+.hero .stats {
+  margin-top: 8px;
+}
+.hero .stats strong {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 54px;
+  color: #171100;
+}
+.hero .stats strong:nth-child(2) {
+  margin-left: 28px;
+}
