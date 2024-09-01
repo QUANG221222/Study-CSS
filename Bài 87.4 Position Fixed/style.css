@@ -1,0 +1,26 @@
+/* Fixed: fix cứng phần tử theo viewport(vùng hiển thị nội dung trên màn hình của trình duyệt web */
+.fa-facebook-messenger {
+  font-size: 2rem;
+  color: #5264ff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.nav {
+  background-color: #555;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+h1 {
+  margin-top: 51px;
+}

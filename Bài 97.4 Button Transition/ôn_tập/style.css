@@ -1,0 +1,80 @@
+.btn {
+  display: block;
+  margin: 20px;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.btn-1 {
+  transition: 0.5s all ease;
+}
+.btn-1:hover {
+  transform: translateY(-15px);
+}
+.btn-2 {
+  transition: 0.5s all ease;
+}
+.btn-2:hover {
+  background-color: orangered;
+}
+.btn-3 {
+  position: relative;
+  overflow: hidden;
+}
+.btn-3::after {
+  content: "";
+  position: absolute;
+  background-color: orangered;
+  width: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s all linear;
+}
+.btn-3:hover::after {
+  width: 100%;
+}
+.btn-4 {
+  position: relative;
+  overflow: hidden;
+}
+.btn-4::after {
+  content: "";
+  position: absolute;
+  background-color: orangered;
+  width: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transition: 0.5s all linear;
+}
+.btn-4:hover::after {
+  left: 0;
+  width: 100%;
+}
+.btn-5 {
+  position: relative;
+  overflow: hidden;
+}
+.btn-5::after {
+  content: "";
+  position: absolute;
+  background-color: orangered;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: 0.5s all linear;
+}
+.btn-5:hover::after {
+  top: 0;
+  height: 100%;
+}
+.btn__span {
+  position: relative;
+  z-index: 100;
+}

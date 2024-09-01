@@ -1,0 +1,71 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: yellow;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: name duration timing-function delay iteration-count direction
+    fill-mode; */
+  animation: spin_element 5s ease 1s infinite alternate-reverse;
+}
+@keyframes spin_element {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: yellow;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: move 3s 2s;
+  /* animation-fill-mode: forwards; */
+  /* animation-fill-mode: backwards; */
+  animation-fill-mode: both;
+}
+@keyframes move {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: yellow;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: around 2s linear infinite;
+}
+@keyframes around {
+  0% {
+    translate: 0 0;
+  }
+  25% {
+    translate: -100px 0;
+  }
+  50% {
+    translate: -100px -100px;
+  }
+  75% {
+    translate: 0 -100px;
+  }
+  100% {
+    translate: 0 0;
+  }
+}

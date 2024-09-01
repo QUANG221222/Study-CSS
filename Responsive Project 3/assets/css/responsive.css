@@ -1,0 +1,287 @@
+/* PC */
+@media (min-width: 992px) {
+  .mobile-header {
+    display: none;
+  }
+}
+/* Tablet & mobile */
+@media (max-width: 991.98px) {
+  /* Ẩn navbar */
+  .navbar {
+    display: none;
+  }
+  /* chuyển logo vào giữa */
+  .header-top {
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+  }
+  /* căn lại vị trí menu icon  */
+  .menu-header__icon {
+    position: absolute;
+    top: 38px;
+    left: 26px;
+    color: #fff;
+    width: 24px;
+  }
+  /* overplay */
+  .menu-overplay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    /*  Cách ở 4 cạnh*/
+    inset: 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  .menu-checkbox:checked ~ .menu-overplay {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* drawer */
+  .menu-drawer {
+    position: fixed;
+    background-color: #2e1919;
+    z-index: 2;
+    inset: 0 40% 0 0;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    padding: 60px;
+  }
+  .menu-checkbox:checked ~ .menu-drawer {
+    transform: translateX(0);
+  }
+  /* menu top */
+  .close__menu {
+    width: 24px;
+    color: #fff;
+  }
+  .menu-drawer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbar__list--mobile {
+    margin-top: 25px;
+  }
+  .navbar__link {
+    display: block;
+    font-size: 2rem;
+  }
+  .navbar__link:hover {
+    background-color: #00ffff37;
+  }
+  /* hero */
+  .hero {
+    flex-direction: column;
+    row-gap: 72px;
+  }
+  .hero__content {
+    order: 2;
+    width: 80%;
+    text-align: center;
+    margin: 22px auto;
+  }
+  .hero__media {
+    order: 1;
+  }
+  .hero__row {
+    justify-content: center;
+  }
+  /* services */
+  .service__row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .service__list {
+    text-align: center;
+  }
+  .service__img {
+    width: 100%;
+  }
+  .service-item {
+    width: 90%;
+    text-align: start;
+  }
+  /* how it works */
+  .work__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  /* about */
+  .about-row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .about__media {
+    width: 100%;
+  }
+  .about__img--big {
+    width: 100%;
+    border-radius: 20px;
+    margin: 25px auto;
+  }
+  .about__img--small {
+    display: none;
+  }
+  .about-content {
+    text-align: center;
+    width: 90%;
+  }
+  /* team list */
+  .team__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+  .team-item__thumb {
+    margin: 0 auto;
+  }
+  /* install img */
+  .install__img {
+    display: none;
+  }
+  .install__content {
+    margin: 0 auto;
+    width: 90%;
+  }
+  /* blog */
+  .blog-inner {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .blog__content {
+    order: 2;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog__list {
+    order: 1;
+    column-gap: 80px;
+  }
+  .blog__heading {
+    max-width: 90%;
+  }
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* footer */
+  .footer-hidden-tablet {
+    display: none;
+  }
+  .footer__top {
+    grid-template-columns: repeat(3, 0.5 0.5 1fr);
+  }
+  .show-on-mobile {
+    display: none;
+  }
+}
+/* Mobile */
+@media (max-width: 767.98px) {
+  /* navbar */
+  .header__action {
+    display: none;
+  }
+  .menu-header__icon {
+    top: 16px;
+  }
+  .menu-drawer {
+    padding: 40px;
+    inset: 0 20% 0 0;
+  }
+  .navbar__item {
+    list-style: none;
+  }
+  .separate {
+    border-top: 1.5px solid #8c8b8b;
+    margin-top: 10px;
+  }
+  /* hero */
+  .hero__img-small {
+    display: none;
+  }
+  .hero__img-large {
+    height: auto;
+    width: 100%;
+  }
+  .hero__heading {
+    font-size: 3rem;
+  }
+  .hero__desc {
+    font-size: 1.5rem;
+  }
+  .hero__row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  /* service */
+  .service__desc {
+    width: 93%;
+  }
+  .service__img {
+    height: auto;
+  }
+  /* work */
+  .work__desc {
+    width: 100%;
+  }
+  .work-item {
+    padding: 20px;
+  }
+  /* about */
+  .about {
+    margin-top: 20px;
+    padding: 40px 0;
+  }
+  .section-heading {
+    font-size: 3rem;
+  }
+  /* team */
+  .team__list {
+    grid-template-columns: 1fr;
+  }
+  /* install */
+  .install__inner {
+    margin: 40px 0;
+    padding: 0 8px;
+  }
+  .install__content {
+    min-width: 250px;
+  }
+  .install__desc {
+    font-size: 1.3rem;
+  }
+  /* blog */
+  .blog__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .blog__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .blog__heading {
+    text-align: center;
+  }
+  /* appointment */
+  .appointment__inner {
+    padding: 30px 5px;
+  }
+  /* footer */
+  .footer__top {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .footer__desc {
+    text-align: center;
+  }
+  .footer__copyright {
+    margin-top: 30px;
+  }
+}

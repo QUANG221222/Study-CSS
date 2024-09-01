@@ -1,0 +1,51 @@
+/* Không áp dụng cho thẻ inline */
+p::first-line
+{
+    color: rebeccapurple;
+}
+span
+{
+    display: inline-block;
+}
+span::first-line
+{
+    color: blue;
+    background-color: yellow;
+}
+
+/* Tác động lên chữ cái đầu tiên */
+p::first-letter
+{
+    font-size: 40px;
+    color: blue;
+}
+
+/* chọn vùng được bôi đen các thẻ p */
+*::selection
+{
+    background-color: brown;
+    color: #fff;
+}
+/* chọn các điểm đánh dấu của phần tử li */
+li::marker
+{
+    font-size: 40px;
+    color: red;
+}
+
+/* Thêm phần tử vào đằng trước class box */
+.box::before
+{
+    content: "Em ở đằng trước nè";
+}
+/* Thêm phần tử vào đằng sau class box */
+.box::after
+{
+    content: "";
+    display: inline-block;
+    border-radius: 999px;
+    background-color: pink;
+    width: 100px;
+    height: 5px;
+    color: red;
+}

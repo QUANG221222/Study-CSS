@@ -1,0 +1,17 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+    background: url(./bg/funny-dog.jpg) center/cover;
+    /* clip-path: circle(50%); */
+    /* clip-path: circle(100px at 40% 0%); */
+    /* 
+    radius = (50% * max(wid, hei)
+    */
+    clip-path: inset(20px 50px 30px);
+    clip-path: inset(20px round 15px 50px 80px 15px);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    border-radius: 15px;
+    margin: 0 auto;
+
+}

@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  padding: 20px;
+}
+.btn {
+  border: none;
+  width: 130px;
+  height: 50px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: blueviolet;
+  transition: 0.5s all linear;
+  font-weight: 600;
+}
+.btn1:hover {
+  translate: 0 -10px;
+}
+.btn2:hover {
+  background-color: orange;
+}
+.btn3 {
+  position: relative;
+  overflow: hidden;
+}
+.btn3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: orangered;
+  transition: width 0.5s linear;
+}
+.btn3:hover::after {
+  width: 100%;
+}
+.btn__span {
+  position: relative;
+  z-index: 10;
+}
+.btn4 {
+  position: relative;
+  overflow: hidden;
+}
+.btn4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* left: 0; */
+  right: 0;
+  width: 0;
+  background-color: orangered;
+  transition: width 0.5s linear;
+}
+.btn4:hover::after {
+  width: 100%;
+  left: 0;
+}
+.btn5 {
+  position: relative;
+  overflow: hidden;
+}
+.btn5::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 0;
+  background-color: orangered;
+  transition: height 0.5s linear;
+}
+.btn5:hover::after {
+  height: 100%;
+  top: 0;
+}

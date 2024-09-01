@@ -1,0 +1,60 @@
+html
+{
+    --box-height : 150px;
+    --box-color : red;
+}
+/* .box1
+{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+}
+.box2
+{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+}
+.box3
+{
+    height: 100px;
+    background-color: #0f0;
+    margin-bottom: 10px;
+} */
+.box1
+{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+.box2
+{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+.box3
+{
+    height: var(--box-height);
+    background-color: var(--box-color);
+    margin-bottom: 10px;
+}
+.detail
+{
+    --p_font-size: 30px;
+    /* font-size: var(--p_font-size); */
+}
+.detail span
+{
+    font-size: var(--p_font-size);
+}
+.content
+{
+    --background_color : red;
+}
+.box4
+{
+    height: 100px;
+    background-color: var(--background_color, purple);
+}
+/* Gía trị backup */

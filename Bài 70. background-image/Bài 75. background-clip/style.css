@@ -1,0 +1,26 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-image: url(./bg/1.PNG);
+    border: 50px dotted red;
+    padding: 50px;
+    /* background-clip: border-box; Mặc định */
+    background-clip: padding-box;
+    background-clip: content-box;
+}
+
+.text_hl
+{
+    color: blueviolet;
+}
+@supports(background-clip: text) or (-webkit-background-clip: text)
+{
+    .text_hl
+    {
+        color: transparent;
+        background-color: blueviolet;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+}

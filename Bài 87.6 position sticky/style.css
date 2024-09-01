@@ -1,0 +1,13 @@
+/* sticky dùng để tạo hiệu ứng bám dính,
+nội dung trong thẻ cha gần nhất có thanh cuộn */
+.content {
+  width: 400px;
+  height: 900px;
+  background-color: cyan;
+  overflow: auto;
+}
+h2 {
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+}

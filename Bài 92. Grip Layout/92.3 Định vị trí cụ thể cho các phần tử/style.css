@@ -1,0 +1,40 @@
+.box1,
+.box4,
+.box5 {
+  background-color: aqua;
+}
+.box2,
+.box3 {
+  background-color: blue;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 100px repeat(2, 50px);
+  grid-template-rows: repeat(7, 100px);
+}
+/* .box1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.box5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+} */
+.box1 {
+  /* grid-row-start: 1;
+  grid-row-end: -1; */
+  grid-row: 1 / -1;
+}
+.box2 {
+  grid-column: span 2;
+  grid-row: span 2;
+}

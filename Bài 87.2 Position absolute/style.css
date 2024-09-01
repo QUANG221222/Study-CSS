@@ -1,0 +1,48 @@
+.box
+{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1
+{
+    background-color: red;
+}
+.box2
+{
+    background-color: blue;
+    position: absolute;
+    /* left: 0; */
+    right: 100px;
+    bottom: 160px;
+    /* left: 100px; */
+}
+.box3
+{
+    background-color: green;
+
+}
+h1
+{
+    background: purple;
+}
+.content
+{
+    /* lấy tổ tiên gần nhất */
+    position: relative;
+    background-color: cyan;
+    width: 400px;
+    margin: 40px;
+}
+.header
+{
+    background-color: yellow;
+    position: relative;
+}
+/* Position: absolute phần tử thực sự được đưa ra khỏi luồng ban đầu
+1 . nếu không có tổ tiên có position: relative thì phần tử được định vị
+theo top left corner webpage (lấy gốc webpage)
+2. Phần thử được định vị theo tổ tiên gần nhất được đặt position là relative */

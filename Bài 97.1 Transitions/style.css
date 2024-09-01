@@ -1,0 +1,22 @@
+.btn {
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  /* transition: 0.5s; */
+  /* transition-duration: 10s;
+  transition-property: background-color, color; */
+  /* transition-delay: 3s; */
+  /* transition-timing-function: cubic-bezier(0.61, 0.58, 0.55, 1.08); */
+  /* transition shorthand */
+  /* transition: all ease-in 1s 3s; */
+  transition: 2s all linear;
+}
+.btn:hover {
+  color: yellow;
+  background-color: red;
+  /* display: none; không hổ trợ */
+  opacity: 0;
+}

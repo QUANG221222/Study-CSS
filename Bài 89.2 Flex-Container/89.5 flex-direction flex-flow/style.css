@@ -1,0 +1,20 @@
+.box {
+  background-color: blue;
+  border: 1px solid black;
+}
+.container {
+  height: 200px;
+  display: flex;
+  background-color: cyan;
+  /* default */
+  /* flex-direction: row; */
+  /* hướng của trục main axis thay đổi */
+  /* flex-direction: row-reverse; */
+  /* justify-content: flex-end; */
+  /* column : đổi trục main thành cross, cross thành main */
+  /* flex-direction: column; */
+  flex-direction: column-reverse;
+  /* justify-content: flex-end; */
+  /* align-items: stretch; */
+  /* align-items: flex-end; */
+}

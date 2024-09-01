@@ -1,0 +1,27 @@
+body {
+  background-color: #000;
+}
+.header {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+}
+.header__heading {
+  color: #000;
+}
+.header::before {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(141deg, #011cff, #00fefe 80%);
+  z-index: -1;
+  rotate: 5deg;
+  padding: 50px;
+  translate: -30px -30px;
+}
